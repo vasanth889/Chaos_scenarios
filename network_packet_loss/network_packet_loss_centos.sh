@@ -15,7 +15,7 @@
 #  limitations under the License.
 
 #applying a 10% packet loss
-sudo tc qdisc add dev wlp4s0 root netem loss 10%
+sudo tc qdisc add dev eth0 root netem loss 10%
 
 
 
