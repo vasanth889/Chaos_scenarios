@@ -15,6 +15,6 @@
 #  limitations under the License.
 
 #delete all rules
-sudo tc qdisc del dev wlp4s0 root
+sudo tc qdisc del dev eth0 root
 
 
